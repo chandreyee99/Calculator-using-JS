@@ -1,0 +1,110 @@
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-image: url("images/black-concrete-wall_24972-1046.avif");
+}
+
+
+.container {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background: linear-gradient(to bottom right, rgba(20, 20, 20, 0.9), rgba(30, 30, 30, 0.6));
+
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 8px 10px 20px rgba(191, 188, 188, 0.5);
+} 
+
+
+input[type="text"] {
+  width: calc(100% - 40px);
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#show{
+  width: 100%;
+  background-color: rgb(241, 243, 245);
+}
+
+
+.button {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(248, 244, 244, 0.912);
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  margin: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #333; 
+}
+
+.button:hover {
+  background-color: rgba(221, 221, 221, 0.5);
+  
+  transform: scale(1.1);
+}
+
+
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+  background-color: rgba(7, 7, 7, 0.2);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style-type: none;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
